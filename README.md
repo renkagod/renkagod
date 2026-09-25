@@ -1,104 +1,118 @@
+<div align="center">
+
+# renka
+
+**InfoSec student** · automation, bots and handy utilities for fun
+
+<a href="https://t.me/renka76"><img src="https://img.shields.io/badge/Telegram-@renka76-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+<a href="https://github.com/throneproj/Throne/pulls?q=is%3Apr+author%3Arenkagod+is%3Amerged"><img src="https://img.shields.io/github/issues-search?query=repo%3Athroneproj%2FThrone%20is%3Apr%20is%3Amerged%20author%3Arenkagod&label=Throne%20merged%20PRs&style=for-the-badge&logo=github&color=1A73E8" alt="Merged pull requests to Throne"></a>
+
+</div>
+
+```console
+$ whoami
+renka, fourth-year information security student
+
+$ cat about.txt
+I write small tools for problems I run into myself, and a few of them are
+Telegram bots. I also run some Debian and Ubuntu servers of my own and send
+patches to Throne, the proxy client I use every day. Some time ago I wrote
+CTF challenges.
 ```
-  RENKA
-  =====
-  $ whoami
-  information security student
-```
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-I'm a fourth-year information security student. I build automation, bots and handy
-utilities for fun, mostly for problems I run into myself. I keep a few Debian and
-Ubuntu servers of my own, and I used to write web, forensics and OSINT challenges
-for Caplag CTF.
-
-## Projects
+## Telegram bots
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [osint-toolbox-mcp](https://github.com/renkagod/osint-toolbox-mcp)
+### [tg-voice-stt](https://github.com/renkagod/tg-voice-stt)
 
-MCP server that lets AI agents run 12 classic OSINT tools locally, no API keys needed.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
-</td>
-<td width="50%" valign="top">
-
-### [music-sorter](https://github.com/renkagod/music-sorter)
-
-Desktop app in C++ that fingerprints, deduplicates and auto-tags music libraries
-using several metadata sources.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [vpn-aggregator](https://github.com/renkagod/vpn-aggregator)
-
-Desktop app in Rust that merges proxy subscriptions, removes duplicates and checks
-servers with parallel TCP probes.
+Transcribes voice messages and video notes with Gemini and streams the text as
+it arrives. A button removes filler words and adds a structured summary. To get
+access you add your free Gemini key to a shared pool; a key that hits the rate
+limit sits out for a minute.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [server-search](https://github.com/renkagod/server-search)
+### [birthday-notifier-bot](https://github.com/renkagod/birthday-notifier-bot)
 
-Finds hosting providers and resellers without their own ASN using BGP, RIPEstat
-and PeeringDB data.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [hardened-docker-ctf-labs](https://github.com/renkagod/hardened-docker-ctf-labs)
-
-Web and forensics CTF challenges in hardened Docker containers, with solvers and
-writeups.
+You add people in plain text, like `Маша 3 августа`, and the bot reminds you
+anywhere from a month ahead to five minutes before. It can pull a contact
+straight from Telegram, and the whole list exports to JSON and back.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [osint-ctf-labs](https://github.com/renkagod/osint-ctf-labs)
+### [Alias](https://github.com/renkagod/Alias)
 
-Multi-phase OSINT challenges with writeups: historical and aviation investigations.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+A bot for the Alias party game. It deals random words from the Easy, Normal and
+Hard decks and links each one to Wiktionary. The interface is in Russian or
+English, and admins can upload their own decks.
 
 </td>
 </tr>
 </table>
 
-Also Telegram bots: [Alias](https://github.com/renkagod/Alias) for the party game,
-[tg-voice-stt](https://github.com/renkagod/tg-voice-stt) for transcribing voice notes,
-[birthday-notifier-bot](https://github.com/renkagod/birthday-notifier-bot) for birthday reminders.
+## Desktop apps
 
-## Merged upstream
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[![Throne](https://img.shields.io/badge/Throne-1A73E8?style=flat-square&logo=v2fly&logoColor=white)](https://github.com/throneproj/Throne/pulls?q=is%3Apr+author%3Arenkagod+is%3Amerged)
-C++/Qt GUI proxy client
+### [music-sorter](https://github.com/renkagod/music-sorter)
 
-| Pull request | What changed |
-| --- | --- |
-| [#1577](https://github.com/throneproj/Throne/pull/1577) | System tray: routing preset selector, grouped server list, fixed active route title |
-| [#1592](https://github.com/throneproj/Throne/pull/1592) | Start/Stop button stays active after a manual stop |
-| [#1618](https://github.com/throneproj/Throne/pull/1618) | Updated the Russian UI translation |
-| [#1844](https://github.com/throneproj/Throne/pull/1844) | Quick routing context menu in the connections view |
-| [#1877](https://github.com/throneproj/Throne/pull/1877) | Replaced the flat connections table with a process tree view |
-| [#1914](https://github.com/throneproj/Throne/pull/1914) | Domain values in simple routing rules are now lowercased |
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+Finds duplicate tracks by audio fingerprint (Chromaprint and AcoustID) and pulls
+tags from MusicBrainz, Discogs, VocaDB and other databases, with synced lyrics
+from LRCLIB. There's a built-in player with a waveform view.
+
+</td>
+<td width="50%" valign="top">
+
+### [vpn-aggregator](https://github.com/renkagod/vpn-aggregator)
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+Merges several proxy subscriptions into one deduplicated list and checks every
+server with parallel TCP probes.
+
+</td>
+</tr>
+</table>
+
+Smaller things: subscription page templates for the
+[3x-ui](https://github.com/renkagod/3xui-subpage) and
+[Marzban](https://github.com/renkagod/marzban-subpage) panels.
+
+## Open source
+
+My patches to [Throne](https://github.com/throneproj/Throne), a C++/Qt proxy client,
+touch the tray menu, the connections view (a process tree and routing from the
+context menu) and the Russian translation.
+
+## CTF
+
+I used to write challenges for Caplag CTF: web and forensics labs packed into
+hardened Docker containers ([hardened-docker-ctf-labs](https://github.com/renkagod/hardened-docker-ctf-labs))
+and multi-phase OSINT investigations ([osint-ctf-labs](https://github.com/renkagod/osint-ctf-labs)).
+Each one comes with a writeup and a solution.
 
 ## Stack
 
-- **Servers:** Debian and Ubuntu, Docker, Caddy and Nginx, UFW, encrypted Restic backups
-- **Languages:** Python, C++/Qt, Rust, TypeScript
-- **Also:** GitHub Actions, networking, OpenSSL and PKI
+<img src="https://skillicons.dev/icons?i=linux,debian,ubuntu,docker,nginx,bash,python,cpp,qt,rust,ts,githubactions" alt="Linux, Debian, Ubuntu, Docker, Nginx, Bash, Python, C++, Qt, Rust, TypeScript, GitHub Actions">
 
-## Contact
-
-Telegram: [@renka76](https://t.me/renka76)
+Also Caddy, UFW, encrypted Restic backups, OpenSSL and PKI.
