@@ -18,6 +18,19 @@ Telegram bots. I run a few Debian and Ubuntu servers of my own. I used to
 write CTF challenges.
 ```
 
+## Featured
+
+### [tg-chat-dump](https://github.com/renkagod/tg-chat-dump)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Telethon](https://img.shields.io/badge/Telethon-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![PyPI](https://img.shields.io/pypi/v/tg-chat-dump?style=flat-square&logo=pypi&logoColor=white)
+
+Dumps a whole Telegram chat or forum at over 100,000 messages a minute. It runs
+Telegram's own export mode with parallel workers on several accounts, about 4×
+faster than Telegram Desktop's export. Everything goes into SQLite, plus text and
+JSONL in one folder per forum topic. `pipx install tg-chat-dump`
+
 ## Telegram bots
 
 <table>
