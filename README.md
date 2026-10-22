@@ -31,6 +31,21 @@ Telegram's own export mode with parallel workers on several accounts, about 4×
 faster than Telegram Desktop's export. Everything goes into SQLite, plus text and
 JSONL in one folder per forum topic. `pipx install tg-chat-dump`
 
+### [SpaceMap](https://github.com/renkagod/spacemap)
+
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=flat-square&logo=swift&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS_13+-000000?style=flat-square&logo=apple&logoColor=white)
+
+A disk usage map for macOS. Folders and files become nested blocks sized by how
+much space they take, and the map fills in while the scan is still running. The
+scan uses every core and counts sizes the way `du` does. Double-click a folder to
+zoom in, right-click to reveal it in Finder or move it to the Trash. A 1 MB
+universal app in English and Russian.
+[Download](https://github.com/renkagod/spacemap/releases/latest/download/SpaceMap-macOS.zip)
+
+<a href="https://github.com/renkagod/spacemap"><img src="https://raw.githubusercontent.com/renkagod/spacemap/main/docs/screenshots/en/map.png" width="640" alt="SpaceMap showing a home folder as a treemap"></a>
+
 ## Telegram bots
 
 <table>
@@ -120,6 +135,6 @@ all with solutions and writeups.
 
 ## Stack
 
-<img src="https://skillicons.dev/icons?i=linux,debian,ubuntu,docker,nginx,bash,python,cpp,qt,rust,ts,githubactions" alt="Linux, Debian, Ubuntu, Docker, Nginx, Bash, Python, C++, Qt, Rust, TypeScript, GitHub Actions">
+<img src="https://skillicons.dev/icons?i=linux,debian,ubuntu,docker,nginx,bash,python,cpp,qt,rust,swift,ts,githubactions" alt="Linux, Debian, Ubuntu, Docker, Nginx, Bash, Python, C++, Qt, Rust, Swift, TypeScript, GitHub Actions">
 
 Also Caddy, UFW, encrypted Restic backups, OpenSSL and PKI.
