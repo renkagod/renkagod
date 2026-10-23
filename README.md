@@ -5,6 +5,7 @@
 **InfoSec student** · automation, bots and handy utilities for fun
 
 <a href="https://t.me/renka76"><img src="https://img.shields.io/badge/Telegram-@renka76-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+<a href="https://github.com/renkagod/.github/blob/main/DONATE.md"><img src="https://img.shields.io/badge/Donate-crypto-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Donate"></a>
 
 </div>
 
